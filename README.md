@@ -70,6 +70,7 @@
    > ![ubuntu](https://img.shields.io/badge/ubuntu-20.04-orange), ![MySQL](https://img.shields.io/badge/-MySQL-%2300618a)
     <br>
 
+<br><br>
 **Library**
    <table>
      <tr>
@@ -78,13 +79,11 @@
        <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Axios_logo_%282017%29.svg/1280px-Axios_logo_%282017%29.svg.png" width="70" height="20"></td>
        <td><img src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbIIBwO%2Fbtrc2Lw7HBs%2FP4hJVVvKkEGfDu9XRzkiq1%2Fimg.png" width="50" height="50"></td>  
      </tr>
-  
      <tr>
    ​    <td align=center>Pytorch</td>
    ​    <td align=center>React</td>
    ​    <td align=center>Axios</td>
    ​    <td align=center>Recoil</td>
-
      </tr>
    </table>
 
@@ -161,13 +160,10 @@
      <tr>
        <td><img src="https://img2.quasarzone.com/editor/2021/07/02/f6381015430ce5a4e608b3865a1a96a0.png" width="55" height="55"></td>
        <td><img src="https://blog.kakaocdn.net/dn/ICVj3/btqw8CnwRqm/UD96COJ6GKk4Y9aF4w46gK/img.png" width="80" height="77"></td>
-
-
      </tr>
      <tr>
        <td align=center>KoBERT<br>2.0</td>
        <td align=center>NVIDIA<br>CUDA</td>
-
      </tr>
    </table>
 
@@ -182,7 +178,7 @@
 
    <br>
 
-### 5. 팀원 역
+### 5. 팀원 역할
 
 | Name   | Position   |
 | ------ | ---------- |
@@ -192,9 +188,11 @@
 | 신호연 | Backend    |
 | 문성권 | Backend    | 
 
+
+
 **본인이 기여한 부분**
 - 데이터 수집 및 가공
-- AI모델 구축
+- AI모델링 및 
 
 <br>
 
