@@ -6,38 +6,45 @@
 
   <br>
 
-  <h4>"행복은 두 배로, 슬픔은 반으로"</h4>
+  <h3>"행복은 두 배로, 슬픔은 반으로"</h3>
 
-<br><br>
-<!-- 
-![downloads](https://img.shields.io/npm/dt/MOODMOOD)
-[![hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fohbyul&count_bg=%237A7A7A&title_bg=%23FFADCC&icon_color=%23FF0000&title=hits&edge_flat=false)](https://kdt-gitlab.elice.io/002-part3-nlp/team2/nlp-project-team2)
-![followers](https://img.shields.io/github/followers/ohbyul?style=social) 
-![codesize](https://img.shields.io/github/languages/code-size/beygee/survive)
-![reposize](https://img.shields.io/github/repo-size/beygee/survive) -->
+  <br>
 
 </div>
 
-## 1. 프로젝트 소개
+## 1. 소개🎯
 
-0. 기능 소개
+**Target**
+  
+- 일기를 통해 공감대를 형성하고 자신의 심리상태를 파악하고 싶은 모든 사람
+- 나도 내 마음이 어떤지 잘 모를 때가 있다.   
+- 나의 일기를 다른 사람들과 공유하고 위로 받고 싶다.
+  
+**Problem**
 
-   - 사용자가 일기를 쓰면 내용을 분석하여 알맞은 감정을 자동으로 라벨링<br>
-   - 일자별 감정추이를 시각화한 캘린더와 그래프 제공<br>
-   - 다른사람이 공유한 일기를 읽고 공감할 수 있는 '공감'버튼
+- 생각보다 많은 사람들이 자신의 감정에 소홀하다.
+- 무의식적인 불안으로 인한 스트레스 유발	
+- 불확실함에 의한 혼란스러움 지속   
+ 
+**Solution**
 
+- 일기에 담긴 감정을 AI가 감정분석을 해주어 자신의 심리 상태를 파악하고, 일상의 탄력적 회복에 도움을 준다.
+
+<br>
+
+## 2. 구조도🖼
+
+![image](https://user-images.githubusercontent.com/76522430/149669525-065f24b7-f06f-47be-bec5-bb60c8c19719.png)
+
+<br>
+
+## 3. 사용 기술🛠
+
+![image](https://user-images.githubusercontent.com/76522430/149669709-19e9dd6b-79b6-4ed5-aed6-f969f7c09c62.png)
+   <br>
    <br>
 
-1. Used DataSets
-
-   - [AI허브 : "한국어 감정 정보가 포함된 단발성 대화 데이터셋"](https://aihub.or.kr/opendata/keti-data/recognition-laguage/KETI-02-009)<br>
-   - [비속어데이터셋1](https://github.com/kocohub/korean-hate-speech)<br>
-   - [비속어데이터셋2](https://github.com/kocohub/korean-hate-speech)
-
-   <br>
-
-2. Environment
-
+**Environment**
    <table>
      <tr>
        <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" width="70" height="70"></td>
@@ -61,21 +68,17 @@
 
 
    > ![ubuntu](https://img.shields.io/badge/ubuntu-20.04-orange), ![MySQL](https://img.shields.io/badge/-MySQL-%2300618a)
-
     <br>
 
-3. Library
-
+**Library**
    <table>
      <tr>
        <td><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="80" height="80"></td>
        <td><img src="https://media.vlpt.us/images/chez_bono/post/487c1fc1-4d58-4a97-aaaf-e0d1d91c0cb6/React.js_logo-512.png" width="70" height="70"></td>
        <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Axios_logo_%282017%29.svg/1280px-Axios_logo_%282017%29.svg.png" width="70" height="20"></td>
-       <td><img src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbIIBwO%2Fbtrc2Lw7HBs%2FP4hJVVvKkEGfDu9XRzkiq1%2Fimg.png" width="70" height="70"></td>
-
-
-   ​    
+       <td><img src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbIIBwO%2Fbtrc2Lw7HBs%2FP4hJVVvKkEGfDu9XRzkiq1%2Fimg.png" width="50" height="50"></td>  
      </tr>
+  
      <tr>
    ​    <td align=center>Pytorch</td>
    ​    <td align=center>React</td>
@@ -152,7 +155,7 @@
 
    <br>
 
-4. Skills
+**Skills**
 
    <table>
      <tr>
@@ -170,51 +173,29 @@
 
    > ![colab](https://img.shields.io/badge/google-colab-orange), ![](https://img.shields.io/badge/-transformers-brightgreen)
 
+### 4. 데이터
+  
+1. Used DataSets
+   - [AI허브 : "한국어 감정 정보가 포함된 단발성 대화 데이터셋"](https://aihub.or.kr/opendata/keti-data/recognition-laguage/KETI-02-009)<br>
+   - [비속어데이터셋1](https://github.com/kocohub/korean-hate-speech)<br>
+   - [비속어데이터셋2](https://github.com/kocohub/korean-hate-speech)
+
    <br>
-   <br>  <br>
 
-## 2. 프로젝트 목표
+### 5. 팀원 역
 
-  <br>
+| Name   | Position   |
+| ------ | ---------- |
+| 남정윤 | AI, Reader |
+| 권순빈 | AI         | 
+| 박소현 | Frontend   | 
+| 신호연 | Backend    |
+| 문성권 | Backend    | 
 
-![image info](./frontend/public/123123.jpg)
+**본인이 기여한 부분**
+- 데이터 수집 및 가공
+- AI모델 구축
 
-<br> <br>
-
-## 3. 프로젝트 기능 설명
-
-  <br>
-
-![image info](./frontend/public/456456.jpg)
-
-<br> <br>
-
-## 4. 프로젝트 구성도
-
-- [와이어프레임](https://www.figma.com/file/fVKhM58EkIDBi7BJebwkBp/MOODMOOD?node-id=0%3A1)
-
-- [스토리보드](https://docs.google.com/presentation/d/1DTDAZEgTwaf5CVYe-uQtZbqBPVOKa0wAzedMZz1HV6s/edit?usp=sharing)
-
-  <br> <br>
-
-## 5. 프로젝트 팀원 역할 분담
-
-| Name   | Position   | Role                                                         |
-| ------ | ---------- | ------------------------------------------------------------ |
-| 남정윤 | AI, Reader | 프로젝트 기획<br> AI 모델구축 <br> 일일 회의록 작성 <br> Readme 작성 |
-| 권순빈 | AI         | 데이터셋 전처리<br> AI 모델구축 <br> 발표자료 정리           |
-| 박소현 | Frontend   | 프론트엔드 개발                                              |
-| 신호연 | Backend    | 백엔드 설계 & 개발 <br> DB 작업 <br> 배포 작업 & 서버 관리   |
-| 문성권 | Backend    | 백엔드 개발 <br> API 작업 <br> AI Serving                    |
+<br>
 
 <br> <br>
-
-## 6. 버전
-
-- v1.2.0
-
-  <br>
-
-## 7. FAQ
-
-- 자주 받는 질문 정리
