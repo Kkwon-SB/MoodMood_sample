@@ -1,138 +1,220 @@
-<img width="300" alt="logo" src="https://user-images.githubusercontent.com/77048150/146647783-20832f11-b79a-4a99-b793-fb4cb75aad2e.png">
-<br>
+<br><br>
 
-# 1. 프로젝트 소개
+<div align=center>
+  <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4bc2119e-95a4-44b8-8114-c0494fa9a62f%2Fmoodmood.png?table=block&id=95994160-02f1-40d9-9e96-2d4f0c263dfb&spaceId=530d1033-cf9f-41a2-b140-62d3e90887dd&width=1150&userId=693cbbb9-ee2c-45b7-9b30-77cc2771b07c&cache=v2" width=70% height=70%>
 
-### 🎯 목표
 
-대한민국의 다양한 배달 데이터를 분석하고 배달 시장의 현황에 대해 보여주는 데이터 분석 서비스를 제공한다
+  <br>
 
-- 코로나 전후 대한민국 배달 시장의 변화를 알 수 있다
-- 확진자 수 대비 배달 주문 건수의 변화를 지역별로 알 수 있다
-- 사용자가 자신이 먹은 음식 사진을 공유하고 다른 사람의 글을 보며 배달 트렌드를 알 수 있다
-- 해당 서비스의 게시판에 올라온 게시글 데이터를 분석, 지역별 업종/시간에 따른 게시글 분포를 알 수 있다
+  <h4>"행복은 두 배로, 슬픔은 반으로"</h4>
 
-### 🧐 기획 의도
+<br><br>
+<!-- 
+![downloads](https://img.shields.io/npm/dt/MOODMOOD)
+[![hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fohbyul&count_bg=%237A7A7A&title_bg=%23FFADCC&icon_color=%23FF0000&title=hits&edge_flat=false)](https://kdt-gitlab.elice.io/002-part3-nlp/team2/nlp-project-team2)
+![followers](https://img.shields.io/github/followers/ohbyul?style=social) 
+![codesize](https://img.shields.io/github/languages/code-size/beygee/survive)
+![reposize](https://img.shields.io/github/repo-size/beygee/survive) -->
 
-**대한민국 배달 정보 타파 서비스! 딜리버리 푸드 파이터에서 배달의 모든 것을 알아보아요**
-
-코로나 이후 꼼짝없이 집에 갇혀버린 우리들, 집에서 모든 것을 해결하는 것이 일상이 되었습니다. 집에서 삼시세끼 챙겨먹기는 왜 이렇게 어렵고 귀찮을까요? 어느새 배달 어플을 열고 메뉴를 고르고 있는 나를 발견하고 있진 않나요?
-
-딜리버리 푸드 파이터는 코로나 이후 배달이 일상이 되어버린 우리들을 위해 대한민국의 다양한 배달 데이터를 분석하고 최근 배달 시장이 어떻게 흘러가는지 보여주는 정보 분석 서비스입니다.
-
-재미없을 것 같다고요? 그렇지 않아요! 배달 주문은 언제 많아질까요? 사람들은 요즘 어떤 음식을 먹을까요? 딜푸파가 모두 알려줄게요! 수많은 쩝쩝박사들이 공유하는 다양한 꿀팁도 하나씩 읽다보면 어느새 시간이 훌쩍 지나 있을 거에요!
-
-<br>
-
-# 2. **기술 스택**
-<div align="center">
-<img alt="numpy" src ="https://img.shields.io/badge/numpy-013243.svg?&style=for-the-badge&logo=numpy&logoColor=white"/>
-<img alt="pandas" src ="https://img.shields.io/badge/pandas-150458.svg?&style=for-the-badge&logo=pandas&logoColor=white"/>
-<img alt="JSON" src ="https://img.shields.io/badge/JSON-000000.svg?&style=for-the-badge&logo=JSON&logoColor=white"/>
-<img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white"/>
-<img alt="Flask" src ="https://img.shields.io/badge/Flask-000000.svg?&style=for-the-badge&logo=Flask&logoColor=white"/>
-<img alt="Doker" src ="https://img.shields.io/badge/Docker-000000.svg?&style=for-the-badge&logo=Docker&logoColor=white"/>
-<img alt="Javascript" src ="https://img.shields.io/badge/Javascript-F7DF1E.svg?&style=for-the-badge&logo=Javascript&logoColor=black"/>
-<img alt="React" src ="https://img.shields.io/badge/React-61DAFB.svg?&style=for-the-badge&logo=React&logoColor=black"/>
-<img alt="MUI" src ="https://img.shields.io/badge/MUI-007FFF.svg?&style=for-the-badge&logo=MUI&logoColor=white"/>
-<img alt="styled-components" src ="https://img.shields.io/badge/styled--components-DB7093.svg?&style=for-the-badge&logo=styled-components&logoColor=black"/>
 </div>
 
+## 1. 프로젝트 소개
 
-### 🗄 프로젝트 구조도
+0. 기능 소개
 
-<img width="800" alt="와이어프레임" src="https://user-images.githubusercontent.com/77048150/146647792-40af55d9-97c0-455d-9eab-31efcfa29d69.png">
+   - 사용자가 일기를 쓰면 내용을 분석하여 알맞은 감정을 자동으로 라벨링<br>
+   - 일자별 감정추이를 시각화한 캘린더와 그래프 제공<br>
+   - 다른사람이 공유한 일기를 읽고 공감할 수 있는 '공감'버튼
 
-<br>
+   <br>
 
-# 3. **기능 설명**
+1. Used DataSets
 
-### 🖼️ 와이어프레임
+   - [AI허브 : "한국어 감정 정보가 포함된 단발성 대화 데이터셋"](https://aihub.or.kr/opendata/keti-data/recognition-laguage/KETI-02-009)<br>
+   - [비속어데이터셋1](https://github.com/kocohub/korean-hate-speech)<br>
+   - [비속어데이터셋2](https://github.com/kocohub/korean-hate-speech)
 
-<img width="800" alt="와이어프레임" src="https://user-images.githubusercontent.com/77048150/146647803-ec215a7c-f46c-476d-875b-d99ad27fef09.png">
+   <br>
 
-[브라우저로 보기](https://www.figma.com/file/yj5kYA5m8jRihN72iirNlJ/delivery-project?node-id=0%3A1)
+2. Environment
 
-
-<br>
-
-### 📂 페이지 구조도 및 주요 기능
-
-<img width="800" alt="페이지 구조" src="https://user-images.githubusercontent.com/77048150/146647806-d1d34713-a87e-4d2f-ab46-b5393fa27638.png">
-
-
-<br>
-
-### 📄 api 문서
-[api 문서](https://lumbar-sloth-e92.notion.site/api-c6f79e4c2e4d41b888ebccd34a9450e2)
-
-<br>
-
-# 4. 시연 영상 및 웹 페이지 캡쳐
-
-
-**메인 페이지**
-
-<img width="800" alt="메인 페이지" src="https://user-images.githubusercontent.com/77048150/146647819-852e1727-b5ae-4efc-90b8-b2da7d2398e7.png">
-
-
-**딜푸파가 뭐야? (서비스 소개 페이지)**
-
-![서비스 소개](https://user-images.githubusercontent.com/77048150/146647823-2940b067-8a6f-42a7-91ad-9feda3d59e6c.gif)
-
-**배달, 얼마나 많아? (배달 데이터 분석 페이지)**
-
-![배달데이터](https://user-images.githubusercontent.com/77048150/146647829-15da8642-851b-44ca-bc34-8802286af4ad.gif)
-
-**쩝쩝박사 성향 분석 (로그 데이터 분석 페이지)**
-
-![로그데이터](https://user-images.githubusercontent.com/77048150/146647838-a80e5cd4-f7f7-45ec-b0d6-f6c07233cfe2.gif)
-
-**쩝쩝박사 다 모여! (게시판 페이지)**
-
-![게시판_](https://user-images.githubusercontent.com/77048150/146647882-27a3728c-93d9-4cff-8c0b-c4489c040104.gif)
-
-<br>
-
-# 5. 역할과 기여한 부분
-
-| 이름 | 담당 주 업무 |
-|-----|-----------|
-| 김한빈	| 팀장/데이터 분석 |
-| 김희재	| 데이터 분석 |
-| 권순빈	| 데이터 수집 |
-| 김나현	| 프론트엔드 |
-| 정태윤	| 백엔드 |
+   <table>
+     <tr>
+       <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" width="70" height="70"></td>
+       <td><img src="https://raw.githubusercontent.com/jsx-ir/logo/master/jsx.png" width="70" height="70"></td>
+       <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" width="70" height="70"></td>
+       <td><img src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBHr9w%2Fbtq7tsvu04R%2FdmBJ3ANlWgUxKZDM6yxXy0%2Fimg.png" width="95" height="70"></td>
+       <td><img src="https://media.vlpt.us/images/sgh002400/post/005be64e-a3e4-4535-9b97-72876a30ef97/MySQL.png" width="90" height="70"></td>
+       <td><img src="https://prev.github.io/attachs/full-stack-flask/logos/sqlalchemy.png" width="70" height="18"></td>
+       <td><img src="https://media.vlpt.us/images/june0313/post/a2bbe956-5158-41d0-85f4-732de86c81b4/3630px-Nginx_logo.png" width="105" height="70"></td>
+     </tr>
+     <tr>
+       <td align=center>Javascript</td>
+       <td align=center>JSX</td>
+       <td align=center>Python<br>3.8 </td>
+       <td align=center>Flask</td>
+       <td align=center>mySQL</td>
+       <td align=center>SQL<br>Alchemy</td>
+       <td align=center>Ngnix</td>
+     </tr>
+   </table>
 
 
-**본인이 기여한 부분**
-- 프로젝트 컨셉 기획
-- UX/UI 디자인 및 개발
-- react-reflet을 활용한 지도 기능 구현
-- 전체 레이아웃 작업
-- 게시판 페이지 구현
+   > ![ubuntu](https://img.shields.io/badge/ubuntu-20.04-orange), ![MySQL](https://img.shields.io/badge/-MySQL-%2300618a)
 
-<br>
+    <br>
 
-# 6. 실행 방법
+3. Library
 
-**프론트엔드**
-1. yarn install / npm install로 라이브러리 설치
-2. yarn start / npm run start
+   <table>
+     <tr>
+       <td><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="80" height="80"></td>
+       <td><img src="https://media.vlpt.us/images/chez_bono/post/487c1fc1-4d58-4a97-aaaf-e0d1d91c0cb6/React.js_logo-512.png" width="70" height="70"></td>
+       <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Axios_logo_%282017%29.svg/1280px-Axios_logo_%282017%29.svg.png" width="70" height="20"></td>
+       <td><img src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbIIBwO%2Fbtrc2Lw7HBs%2FP4hJVVvKkEGfDu9XRzkiq1%2Fimg.png" width="70" height="70"></td>
 
-**백엔드**
-1. backend 폴더안에있는 requirements.txt로 파이썬 패키지 설치
-2. backend/delivery_app 폴더로 이동
-3. flask db init
-4. flask db migrate
-5. flask db upgrade
-    - geodata요청에 쓰이는 address테이블 초기화 하는 방법이 바뀌었습니다.
-    - 첫 마이그레이션 이후 가장 상위의 data폴더에 있는 `region_data.sql`파일을 이용해 데이터를 넣어주세요
-6. flask run : 개발환경 실행
-7. `배포환경 실행` : 환경변수 설정 후 docker-compose 실행
-8. `pre-commit 으로 백엔드 코드 포맷팅하기`
-    - requirements.txt 설치 -> pre-commit 패키지가 설치됩니다.
-    - .pre-commit-config.yaml파일이 있는 backend 폴더에서 `pre-commit install`명령을 실행합니다.
-    - 잘 실행이 됬다면 .git/hooks 폴더에 pre-commit이라는 파일이 생깁니다.
-    - 이제 commit을 하면 python파일을 검사해 코드를 포맷팅해줍니다.
-    - 포맷팅된 파일을 다시 add하고 commit을 하면 됩니다.
+
+   ​    
+     </tr>
+     <tr>
+   ​    <td align=center>Pytorch</td>
+   ​    <td align=center>React</td>
+   ​    <td align=center>Axios</td>
+   ​    <td align=center>Recoil</td>
+
+     </tr>
+   </table>
+
+   > ![](https://img.shields.io/badge/-tqdm-green), ![pandas](https://img.shields.io/badge/pandas-25b72d),
+   > ![numpy](https://img.shields.io/badge/numpy-209d8d), ![mxnet](https://img.shields.io/badge/-mxnet-%230393d6), ![gluonNLP](https://img.shields.io/badge/-GluonNLP-%23d7ebfe), ![](https://img.shields.io/badge/-sentencepiece-%239fa1a4), ![](https://img.shields.io/badge/-Counter-black), ![](https://img.shields.io/badge/-Slate-%23741e4b), ![](https://img.shields.io/badge/-PyMySQL-blueviolet), ![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-%23cb1700),
+
+   <details>
+       <summary style="color: gray;">Details</summary>
+
+
+       alembic==1.7.5
+       certifi==2019.11.28
+       chardet==3.0.4
+       click==8.0.3
+       Cython==0.29.25
+       dbus-python==1.2.16
+       distro-info===0.23ubuntu1
+       filelock==3.4.0
+       Flask==2.0.2
+       Flask-Cors==3.0.10
+       Flask-Migrate==3.1.0
+       Flask-SQLAlchemy==2.5.1
+       flatbuffers==2.0
+       gluonnlp==0.10.0
+       graphviz==0.8.4
+       greenlet==1.1.2
+       huggingface-hub==0.2.1
+       idna==2.8
+       importlib-metadata==4.8.2
+       importlib-resources==5.4.0
+       itsdangerous==2.0.1
+       Jinja2==3.0.3
+       joblib==1.1.0
+       kobert @ git+https://github.com/SKTBrain/KoBERT.git@77466ab67f2700f7aad3ae59c31b888eebd9e509
+       Mako==1.1.6
+       MarkupSafe==2.0.1
+       mxnet==1.8.0.post0
+       numpy==1.21.4
+       onnxruntime==1.10.0
+       packaging==21.3
+       pandas==1.3.4
+       protobuf==3.19.1
+       PyGObject==3.36.0
+       PyMySQL==1.0.2
+       pyparsing==3.0.6
+       python-apt==2.0.0+ubuntu0.20.4.6
+       python-dateutil==2.8.2
+       pytz==2021.3
+       PyYAML==6.0
+       regex==2021.11.10
+       requests==2.22.0
+       requests-unixsocket==0.2.0
+       sacremoses==0.0.46
+       sentencepiece==0.1.96
+       six==1.14.0
+       SQLAlchemy==1.4.28
+       tokenizers==0.8.1rc1
+       torch==1.10.0
+       tqdm==4.62.3
+       transformers==3.0.2
+       typing_extensions==4.0.1
+       unattended-upgrades==0.1
+       urllib3==1.25.8
+       Werkzeug==2.0.2
+       zipp==3.6.0
+
+   </details>
+
+   <br>
+
+4. Skills
+
+   <table>
+     <tr>
+       <td><img src="https://img2.quasarzone.com/editor/2021/07/02/f6381015430ce5a4e608b3865a1a96a0.png" width="55" height="55"></td>
+       <td><img src="https://blog.kakaocdn.net/dn/ICVj3/btqw8CnwRqm/UD96COJ6GKk4Y9aF4w46gK/img.png" width="80" height="77"></td>
+
+
+     </tr>
+     <tr>
+       <td align=center>KoBERT<br>2.0</td>
+       <td align=center>NVIDIA<br>CUDA</td>
+
+     </tr>
+   </table>
+
+   > ![colab](https://img.shields.io/badge/google-colab-orange), ![](https://img.shields.io/badge/-transformers-brightgreen)
+
+   <br>
+   <br>  <br>
+
+## 2. 프로젝트 목표
+
+  <br>
+
+![image info](./frontend/public/123123.jpg)
+
+<br> <br>
+
+## 3. 프로젝트 기능 설명
+
+  <br>
+
+![image info](./frontend/public/456456.jpg)
+
+<br> <br>
+
+## 4. 프로젝트 구성도
+
+- [와이어프레임](https://www.figma.com/file/fVKhM58EkIDBi7BJebwkBp/MOODMOOD?node-id=0%3A1)
+
+- [스토리보드](https://docs.google.com/presentation/d/1DTDAZEgTwaf5CVYe-uQtZbqBPVOKa0wAzedMZz1HV6s/edit?usp=sharing)
+
+  <br> <br>
+
+## 5. 프로젝트 팀원 역할 분담
+
+| Name   | Position   | Role                                                         |
+| ------ | ---------- | ------------------------------------------------------------ |
+| 남정윤 | AI, Reader | 프로젝트 기획<br> AI 모델구축 <br> 일일 회의록 작성 <br> Readme 작성 |
+| 권순빈 | AI         | 데이터셋 전처리<br> AI 모델구축 <br> 발표자료 정리           |
+| 박소현 | Frontend   | 프론트엔드 개발                                              |
+| 신호연 | Backend    | 백엔드 설계 & 개발 <br> DB 작업 <br> 배포 작업 & 서버 관리   |
+| 문성권 | Backend    | 백엔드 개발 <br> API 작업 <br> AI Serving                    |
+
+<br> <br>
+
+## 6. 버전
+
+- v1.2.0
+
+  <br>
+
+## 7. FAQ
+
+- 자주 받는 질문 정리
