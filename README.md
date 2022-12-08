@@ -9,6 +9,11 @@
 -->
 
 
+<h4>
+<a target="_blank" href="https://eminent-pruner-9ad.notion.site/2eddde52edcf420dbca58411584f8a34">
+   [프로젝트 과정에서 배운것 & 트러블 슈팅 과정]
+</a>
+</h4>
 
 <br>
 <div align=center>
@@ -202,12 +207,5 @@
 | 신호연 | Backend    |
 | 문성권 | Backend    | 
 
-
-
-**본인이 기여한 부분**
-- 데이터 수집 및 가공
-- AI모델링 및 
-
-<br>
 
 <br> <br>
