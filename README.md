@@ -23,7 +23,6 @@
 <div align=center>
 <img src="https://user-images.githubusercontent.com/76522430/149671435-43ff01b2-dcf8-4531-8f09-1baf73eaeae0.gif" width=70% height=70%>
 </div>
-<br>
 
 ## 1. 소개🎯
 
@@ -206,6 +205,5 @@
 | 박소현 | Frontend   | 
 | 신호연 | Backend    |
 | 문성권 | Backend    | 
-
 
 <br> <br>
