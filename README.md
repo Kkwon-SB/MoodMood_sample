@@ -19,7 +19,7 @@
 <img src="https://user-images.githubusercontent.com/76522430/149671435-43ff01b2-dcf8-4531-8f09-1baf73eaeae0.gif" width=70% height=70%>
 </div>
 <br>
-
+<hr>
 MOODMOOD는 사용자가 일기를 쓰면 그에 알맞은 감정을 자동으로 라벨링해주는 다이어리 서비스입니다.<br>
 보통 일기와 달리 그날의 감정과 주간 감정 레포트를 제공함으로써 보다 더 의미있는 일기 작성을 도와주는 서비스 입니다.<br><br>
 
