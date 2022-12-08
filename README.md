@@ -188,7 +188,7 @@
 | Name   | Position   |
 | ------ | ---------- |
 | 남정윤 | AI, Reader |
-| 권순빈 | AI         | 
+| 권순빈 | AI, Data   | 
 | 박소현 | Frontend   | 
 | 신호연 | Backend    |
 | 문성권 | Backend    | 
