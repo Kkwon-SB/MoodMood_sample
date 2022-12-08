@@ -1,6 +1,8 @@
 ## 1. 소개🎯
 <h3>"행복은 두 배로, 슬픔은 반으로"</h3>
 
+<img src="https://user-images.githubusercontent.com/76522430/149671435-43ff01b2-dcf8-4531-8f09-1baf73eaeae0.gif" width=70% height=70%>
+
 https://user-images.githubusercontent.com/76522430/149671435-43ff01b2-dcf8-4531-8f09-1baf73eaeae0.gif
 <br>
 
