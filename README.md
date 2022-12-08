@@ -10,18 +10,16 @@
 
 
 ## 1. 소개🎯
-<h3>"행복은 두 배로, 슬픔은 반으로"</h3>
-<div align=center>
-<img src="https://user-images.githubusercontent.com/76522430/149671435-43ff01b2-dcf8-4531-8f09-1baf73eaeae0.gif" width=70% height=70%>
-</div>
-<br>
+
 <div align=center>
 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4bc2119e-95a4-44b8-8114-c0494fa9a62f%2Fmoodmood.png?table=block&id=95994160-02f1-40d9-9e96-2d4f0c263dfb&spaceId=530d1033-cf9f-41a2-b140-62d3e90887dd&width=1150&userId=693cbbb9-ee2c-45b7-9b30-77cc2771b07c&cache=v2" width=70% height=70%>
 </div>
 
-<!--
-일기를 기록하는 것 뿐만 아닌 감정과 
--->
+<div align=center>
+<img src="https://user-images.githubusercontent.com/76522430/149671435-43ff01b2-dcf8-4531-8f09-1baf73eaeae0.gif" width=70% height=70%>
+</div>
+<br>
+
 MOODMOOD는 사용자가 일기를 쓰면 그에 알맞은 감정을 자동으로 라벨링해주는 다이어리 서비스입니다.<br>
 보통 일기는 단순 기록으로만 끝나는 경우가 많은데, 그날의 감정과 주간 감정 레포트를 제공함으로써 사용자에게 동기부여 제공과 기본의 일기 형태 보다 더 의미있는 일기 작성을 도와주는 서비스 입니다.<br><br>
 
