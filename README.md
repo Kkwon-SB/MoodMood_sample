@@ -9,7 +9,7 @@
 -->
 
 
-## 1. 소개🎯
+
 <br>
 <div align=center>
 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4bc2119e-95a4-44b8-8114-c0494fa9a62f%2Fmoodmood.png?table=block&id=95994160-02f1-40d9-9e96-2d4f0c263dfb&spaceId=530d1033-cf9f-41a2-b140-62d3e90887dd&width=1150&userId=693cbbb9-ee2c-45b7-9b30-77cc2771b07c&cache=v2" width=70% height=70%>
@@ -19,9 +19,10 @@
 <img src="https://user-images.githubusercontent.com/76522430/149671435-43ff01b2-dcf8-4531-8f09-1baf73eaeae0.gif" width=70% height=70%>
 </div>
 <br>
-<hr>
-MOODMOOD는 사용자가 일기를 쓰면 그에 알맞은 감정을 자동으로 라벨링해주는 다이어리 서비스입니다.<br>
-보통 일기와 달리 그날의 감정과 주간 감정 레포트를 제공함으로써 보다 더 의미있는 일기 작성을 도와주는 서비스 입니다.<br><br>
+## 1. 소개🎯
+
+- MOODMOOD는 사용자가 일기를 쓰면 그에 알맞은 감정을 자동으로 라벨링해주는 다이어리 서비스입니다.<br>
+- 보통 일기와 달리 그날의 감정과 주간 감정 레포트를 제공함으로써 보다 더 의미있는 일기 작성을 도와주는 서비스 입니다.<br><br>
 
 나도 내 감정을 몰라서 혼란스러울 때, AI가 객관적으로 자신의 감정 상태를 알려준다면?<br>
 "나의 감정을 잘 파악한다면 보다 현명하게 대처할 수 있지 않을까?" 라는 생각에서 출발한 MOODMOOD 서비스는 AI가 객관적으로 자신의 감정 상태를 알려줌으로서 자신의 심리 상태를 파악하고 상황에 알맞은 대처를 함으로서 빠른 일상회복을 기대합니다.<br>
