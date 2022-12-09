@@ -189,21 +189,10 @@
 
 ### 4. 데이터
   
-1. Used DataSets
+<p>Used DataSets</p>
    - [AI허브 : "한국어 감정 정보가 포함된 단발성 대화 데이터셋"](https://aihub.or.kr/opendata/keti-data/recognition-laguage/KETI-02-009)<br>
    - [비속어데이터셋1](https://github.com/kocohub/korean-hate-speech)<br>
    - [비속어데이터셋2](https://github.com/kocohub/korean-hate-speech)
 
    <br>
 
-### 5. 팀원 역할
-
-| Name   | Position   |
-| ------ | ---------- |
-| 남정윤 | AI, Reader |
-| 권순빈 | AI, Data   | 
-| 박소현 | Frontend   | 
-| 신호연 | Backend    |
-| 문성권 | Backend    | 
-
-<br> <br>
