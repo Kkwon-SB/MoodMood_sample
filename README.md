@@ -188,11 +188,12 @@
    > ![colab](https://img.shields.io/badge/google-colab-orange), ![](https://img.shields.io/badge/-transformers-brightgreen)
 
 ### 4. 데이터
-  
-<b>Used DataSets</b>
+  지도 학습을 위해 라벨링이 되어 있는 데이터를 선택했습니다. 1개 파일은 학습시키기 위한 데이터 양이 부족하여 추가 데이터를 사용했습니다. 
+
    - [AI허브 : "한국어 감정 정보가 포함된 단발성 대화 데이터셋"](https://aihub.or.kr/opendata/keti-data/recognition-laguage/KETI-02-009)<br>
    - [비속어데이터셋1](https://github.com/kocohub/korean-hate-speech)<br>
    - [비속어데이터셋2](https://github.com/kocohub/korean-hate-speech)
 
+ 
    <br>
 
