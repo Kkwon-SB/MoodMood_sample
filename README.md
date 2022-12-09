@@ -189,7 +189,7 @@
 
 ### 4. 데이터
   
-<p>Used DataSets</p>
+<b>Used DataSets</b>
    - [AI허브 : "한국어 감정 정보가 포함된 단발성 대화 데이터셋"](https://aihub.or.kr/opendata/keti-data/recognition-laguage/KETI-02-009)<br>
    - [비속어데이터셋1](https://github.com/kocohub/korean-hate-speech)<br>
    - [비속어데이터셋2](https://github.com/kocohub/korean-hate-speech)
